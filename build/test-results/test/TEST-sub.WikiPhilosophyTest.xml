@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sub.WikiPhilosophyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-03T08:22:32" hostname="AL01271506.local" time="0.002">
-  <properties/>
-  <testcase name="testMain" classname="sub.WikiPhilosophyTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
