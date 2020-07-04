@@ -1,10 +1,11 @@
-package sub;
+package ch2;
 
 //import static org.junit.Assert.*;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 import static org.hamcrest.CoreMatchers.*;
 
+import ch2.MyArrayList;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

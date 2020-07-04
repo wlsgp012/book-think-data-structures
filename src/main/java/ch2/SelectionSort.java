@@ -1,7 +1,7 @@
 /**
  *
  */
-package sub;
+package ch2;
 
 import java.util.Arrays;
 
