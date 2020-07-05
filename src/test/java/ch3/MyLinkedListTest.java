@@ -1,11 +1,10 @@
 /**
  *
  */
-package sub;
+package ch3;
 
 import ch2.MyArrayListTest;
 import java.util.ArrayList;
-
 import org.junit.Before;
 
 
