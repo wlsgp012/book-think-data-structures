@@ -1,4 +1,4 @@
-package sub;
+package ch8;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -8,6 +8,8 @@ import java.util.Set;
 import org.jsoup.nodes.Node;
 import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
+import sub.WikiFetcher;
+import sub.WikiNodeIterable;
 
 
 /**
@@ -36,8 +38,7 @@ public class TermCounter {
 	 * @return
 	 */
 	public int size() {
-		// TODO: FILL THIS IN!
-		return 0;
+		return map.values().stream().mapToInt(value -> value).sum();
 	}
 
 	/**

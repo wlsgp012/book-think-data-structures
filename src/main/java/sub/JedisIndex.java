@@ -4,11 +4,9 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 
+import ch8.TermCounter;
 import org.jsoup.select.Elements;
 
 import redis.clients.jedis.Jedis;

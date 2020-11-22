@@ -1,4 +1,4 @@
-package sub;
+package ch8;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.HashSet;
 
 import org.jsoup.select.Elements;
+import sub.WikiFetcher;
 
 /**
  * Encapsulates a map from search term to set of TermCounter.
@@ -79,11 +80,9 @@ public class Index {
      * @param paragraphs  Collection of elements that should be indexed.
      */
     public void indexPage(String url, Elements paragraphs) {
-        // TODO: Your code here
-
-        // make a TermCounter and count the terms in the paragraphs
-
-        // for each term in the TermCounter, add the TermCounter to the index
+        TermCounter termCounter = new TermCounter(url);
+        termCounter.processElements(paragraphs);
+        termCounter.keySet().forEach(term -> add(term, termCounter));
     }
 
     /**

@@ -1,14 +1,16 @@
 /**
  *
  */
-package sub;
+package ch8;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 
+import ch8.TermCounter;
 import org.jsoup.select.Elements;
 import org.junit.Before;
 import org.junit.Test;
+import sub.WikiFetcher;
 
 /**
  * @author downey
