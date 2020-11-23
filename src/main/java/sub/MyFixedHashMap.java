@@ -3,6 +3,8 @@
  */
 package sub;
 
+import ch9.MyLinearMap;
+
 import java.util.Map;
 
 /**

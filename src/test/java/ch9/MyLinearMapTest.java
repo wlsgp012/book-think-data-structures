@@ -1,7 +1,7 @@
 /**
  *
  */
-package sub;
+package ch9;
 
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import ch9.MyLinearMap;
 import org.junit.Before;
 import org.junit.Test;
 
