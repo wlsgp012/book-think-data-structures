@@ -8,6 +8,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * Implementation of a Map using a collection of MyLinearMap, and
@@ -75,7 +76,7 @@ public class MyBetterMap<K, V> implements Map<K, V> {
 
     @Override
     public Set<Entry<K, V>> entrySet() {
-        throw new UnsupportedOperationException();
+        return maps.stream().flatMap(lm -> lm.entrySet().stream()).collect(Collectors.toSet());
     }
 
     @Override

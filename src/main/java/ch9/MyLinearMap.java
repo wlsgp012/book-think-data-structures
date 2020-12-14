@@ -4,6 +4,7 @@
 package ch9;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Implementation of a Map using a List of entries, so most
@@ -87,7 +88,7 @@ public class MyLinearMap<K, V> implements Map<K, V> {
 
 	@Override
 	public Set<Map.Entry<K, V>> entrySet() {
-		throw new UnsupportedOperationException();
+		return entries.stream().collect(Collectors.toSet());
 	}
 
 	@Override

@@ -3,6 +3,7 @@
  */
 package sub;
 
+import ch11.MyHashMap;
 import ch9.MyLinearMap;
 
 import java.util.Map;

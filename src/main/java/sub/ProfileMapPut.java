@@ -3,6 +3,7 @@ package sub;
 import java.util.HashMap;
 import java.util.Map;
 
+import ch11.MyHashMap;
 import org.jfree.data.xy.XYSeries;
 import sub.Profiler.Timeable;
 

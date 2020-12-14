@@ -1,7 +1,7 @@
 /**
  *
  */
-package sub;
+package ch11;
 
 import ch9.MyLinearMapTest;
 import org.junit.Before;
