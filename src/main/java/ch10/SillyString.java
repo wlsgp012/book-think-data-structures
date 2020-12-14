@@ -1,7 +1,7 @@
 /**
  *
  */
-package sub;
+package ch10;
 
 import java.util.Map;
 

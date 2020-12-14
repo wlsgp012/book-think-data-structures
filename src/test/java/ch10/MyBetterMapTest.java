@@ -1,8 +1,9 @@
 /**
  *
  */
-package sub;
+package ch10;
 
+import ch10.MyBetterMap;
 import ch9.MyLinearMapTest;
 import org.junit.Before;
 
