@@ -1,10 +1,10 @@
-package sub;
+package ch11;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import ch11.MyHashMap;
 import org.jfree.data.xy.XYSeries;
+import sub.Profiler;
 import sub.Profiler.Timeable;
 
 
@@ -14,8 +14,8 @@ public class ProfileMapPut {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//profileHashMapPut();
-		//profileMyHashMapPut();
+//		profileHashMapPut();
+//		profileMyHashMapPut();
 		profileMyFixedHashMapPut();
 	}
 

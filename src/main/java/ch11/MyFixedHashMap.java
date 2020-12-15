@@ -1,9 +1,8 @@
 /**
  *
  */
-package sub;
+package ch11;
 
-import ch11.MyHashMap;
 import ch9.MyLinearMap;
 
 import java.util.Map;

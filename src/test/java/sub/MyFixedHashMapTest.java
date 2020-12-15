@@ -3,6 +3,7 @@
  */
 package sub;
 
+import ch11.MyFixedHashMap;
 import ch9.MyLinearMapTest;
 import org.junit.Before;
 
