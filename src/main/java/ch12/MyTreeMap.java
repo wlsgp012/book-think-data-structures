@@ -212,7 +212,16 @@ public class MyTreeMap<K, V> implements Map<K, V> {
         node.key = null;
         node.value = null;
         size --;
+        reput(node.right);
+        reput(node.left);
         return old;
+    }
+
+    private void reput(Node node){
+        if(node == null) return;
+
+        remove(node.key);
+        put(node.key, node.value);
     }
 
     @Override
