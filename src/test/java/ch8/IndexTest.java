@@ -6,12 +6,10 @@ import static org.hamcrest.CoreMatchers.*;
 import java.io.IOException;
 import java.util.Set;
 
-import ch8.Index;
-import ch8.TermCounter;
 import org.jsoup.select.Elements;
 import org.junit.Before;
 import org.junit.Test;
-import sub.WikiFetcher;
+import ch14.WikiFetcher;
 
 public class IndexTest {
 

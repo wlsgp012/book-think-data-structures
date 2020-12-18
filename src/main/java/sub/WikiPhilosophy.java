@@ -4,8 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import ch14.WikiFetcher;
 
 public class WikiPhilosophy {
 

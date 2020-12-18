@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.HashSet;
 
 import org.jsoup.select.Elements;
-import sub.WikiFetcher;
+import ch14.WikiFetcher;
 
 /**
  * Encapsulates a map from search term to set of TermCounter.

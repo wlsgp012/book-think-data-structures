@@ -6,7 +6,9 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Queue;
 
-import org.jsoup.nodes.Element;
+import ch14.JedisIndex;
+import ch14.JedisMaker;
+import ch14.WikiFetcher;
 import org.jsoup.select.Elements;
 
 import redis.clients.jedis.Jedis;

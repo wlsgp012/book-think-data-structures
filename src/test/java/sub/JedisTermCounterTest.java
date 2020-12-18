@@ -8,6 +8,8 @@ import static org.hamcrest.CoreMatchers.*;
 
 import java.util.Map;
 
+import ch14.JedisMaker;
+import ch14.WikiFetcher;
 import org.jsoup.select.Elements;
 import org.junit.Before;
 import org.junit.Test;

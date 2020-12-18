@@ -9,6 +9,9 @@ import static org.hamcrest.CoreMatchers.*;
 import java.io.IOException;
 import java.util.Map;
 
+import ch14.JedisIndex;
+import ch14.JedisMaker;
+import ch14.WikiFetcher;
 import org.jsoup.select.Elements;
 import org.junit.After;
 import org.junit.Before;

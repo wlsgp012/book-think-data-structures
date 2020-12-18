@@ -1,17 +1,16 @@
-package sub;
+package ch14;
 
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
+import org.jsoup.select.Elements;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import redis.clients.jedis.Jedis;
 
 import java.io.IOException;
 import java.util.Map;
 
-import org.jsoup.select.Elements;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
-import redis.clients.jedis.Jedis;
+import static org.hamcrest.CoreMatchers.is;
 
 /**
  * @author downey
@@ -66,7 +65,7 @@ public class JedisIndexTest {
 	@Test
 	public void testGetCounts() {
 		Map<String, Integer> map = index.getCounts("the");
-		assertThat(map.get(url1), is(339));
-		assertThat(map.get(url2), is(264));
+		Assert.assertThat(map.get(url1), is(339));
+		Assert.assertThat(map.get(url2), is(264));
 	}
 }

@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import ch14.JedisMaker;
+import ch14.WikiFetcher;
 import ch8.TermCounter;
 import org.jsoup.select.Elements;
 

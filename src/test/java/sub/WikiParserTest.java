@@ -8,6 +8,7 @@ import static org.hamcrest.CoreMatchers.*;
 
 import java.io.IOException;
 
+import ch14.WikiFetcher;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.junit.Test;

@@ -8,8 +8,8 @@ import java.util.Set;
 import org.jsoup.nodes.Node;
 import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
-import sub.WikiFetcher;
-import sub.WikiNodeIterable;
+import ch14.WikiFetcher;
+import ch14.WikiNodeIterable;
 
 
 /**
