@@ -1,4 +1,4 @@
-package sub;
+package ch17;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+import ch17.ListSorter;
 import org.junit.Before;
 import org.junit.Test;
 
